@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #005899;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#frame{
+	background-color: #0094FF;
+	width: 960px;
+	margin: 20px auto 0;
+	border: 5px solid #0076cc;
+	padding: 20px;
+}
+
+#input{
+	width: 720px;
+	margin: 0 auto;
+}
+
+#input input{
+	display: inline-block;
+	width: 500px;
+	height: 60px;
+	margin: 0 auto;
+	padding: 0 5px;
+	border-radius: 20px;
+	border: 1px solid gray;
+	font-size: 20pt;
+}
+
+#input #submit{
+	width: 180px;
+	float: right;
+	padding: 0;
+	background-color: #ddd;
+	text-shadow: 0px 0px 5px #848484;
+}
+
+#input #submit:hover{
+	cursor: pointer;
+	background-color: #c6c6c6;
+}
+
+#todo-list{
+	width: 920px;
+	margin: 30px auto 0;
+}
+
+ul{
+	list-style: none;
+}
+
+#list li{
+	padding: 5px;
+	background-color: rgba(255,255,255, 0.5);
+	border: solid rgba(255,255,255, 0.75);
+	border-width: 1px 0;
+	font-size: 16pt;
+}
+
+#list li:first-child{
+	padding-top: 5px;
+	border-radius: 10px 10px 0 0;
+	border-width: 0 0 1px 0;
+}
+#list li:last-child{
+	padding-bottom: 10px;
+	border-radius: 0 0 10px 10px;
+	border-width: 1px 0 0 0;
+}
+
+#list li p{
+	width: 800px;
+	display: inline-block;
+}
+
+#list li button{
+	display: inline-block;
+	vertical-align: top;
+	margin: 6px 5px 0 0;
+}
+
+#list li form{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#list .del, #delAll input{
+	background-color: #FF4B4B;
+	border-color: #e54343;
+	border-radius: 5px;
+}
+
+#list .cng{
+	background-color: #3ccc3c;
+	border-color: #36b736;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+#list li form input{
+	/*width: 42px;*/
+	display: inline;
+}
+
+#options{
+	margin: 10px auto 0;
+	width: 144px;
+}
+
+#options li{
+	display: inline-block;
+	margin: 0 4px;
+}
+
+#options li input, #delAll input{
+	width: 62px;
+	border-radius: 5px;
+}
+
+#options #refresh{
+	background-color: #4B4BFF;
+	border-color: #4343E5;
+}
+
+.del, .cng, #delAll input, #refresh{
+	cursor: pointer;
+}
